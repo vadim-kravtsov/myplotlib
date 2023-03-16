@@ -352,7 +352,7 @@
 ## https://matplotlib.org/api/axes_api.html#module-matplotlib.axes
 #axes.facecolor:     white   # axes background color
 #axes.edgecolor:     black   # axes edge color
-#axes.linewidth:     0.8     # edge linewidth
+#axes.linewidth:     1.5     # edge linewidth
 #axes.grid:          False   # display grid or not
 axes.grid.axis:     both    # which axis the grid should apply to
 #axes.grid.which:    major   # gridlines at {major, minor, both} ticks

@@ -15,8 +15,8 @@ from matplotlib.gridspec import GridSpec
 
 tickwidth = 1.5
 
-def makefigure(n_rows=1, n_cols=1, figsize=(7, 7), sharex=False):
-    fig, axes = plt.subplots(n_rows, n_cols, figsize=figsize, sharex=sharex)
+def makefigure(n_rows=1, n_cols=1, figsize=(7, 7), sharex=False, sharey=False, **kwargs):
+    fig, axes = plt.subplots(n_rows, n_cols, figsize=figsize, sharex=sharex, sharey=sharey, **kwargs)
 
     if n_rows == n_cols == 1:
         axes.xaxis.set_minor_locator(AutoMinorLocator())
